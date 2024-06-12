@@ -5,8 +5,8 @@
 #include <HardwareSerial.h>
 #include <WiFi.h>
 
-#define WIFI_SSID "GHOSTLAP"
-#define WIFI_PASSWORD "Ghostlap"
+#define WIFI_SSID "xxxxP"
+#define WIFI_PASSWORD "xxxx"
 // Create a TinyGPS++ object
 TinyGPSPlus gps;
 
@@ -17,8 +17,8 @@ HardwareSerial gpsSerial(1);
 
 
 // Firebase settings
-#define FIREBASE_HOST "vajnavic-default-rtdb.asia-southeast1.firebasedatabase.app" // Replace with your Firebase database URL
-#define FIREBASE_AUTH "AIzaSyBu1FbTdtgJ80oBi6j523Bv78LzokTvZ9Q" // Replace with your Firebase API key
+#define FIREBASE_HOST "xxxxx" // Replace with your Firebase database URL
+#define FIREBASE_AUTH "xxxxx" // Replace with your Firebase API key
 
 // Use hardware serial port 2
 HardwareSerial SerialAT(2);
