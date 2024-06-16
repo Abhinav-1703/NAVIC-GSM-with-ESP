@@ -16,8 +16,8 @@ HardwareSerial gpsSerial(1);
 #define MODEM_RST 5
 
 // ThingSpeak settings
-const char* server = "api.thingspeak.com";
-const String apiKey = "VS0F2N4CWNU3DA6K"; // Replace with your ThingSpeak API key
+const char* server = "xxxxx";
+const String apiKey = "xxxxx"; // Replace with your ThingSpeak API key
 const unsigned long postingInterval = 5000; // Interval between updates (in milliseconds)
 
 // Use hardware serial port 2
