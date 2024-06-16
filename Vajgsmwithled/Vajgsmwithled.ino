@@ -19,8 +19,8 @@ HardwareSerial gpsSerial(1);
 #define LED_INTERNET 14
 
 // ThingSpeak settings
-const char* server = "api.thingspeak.com";
-const String apiKey = "VS0F2N4CWNU3DA6K"; // Replace with your ThingSpeak API key
+const char* server = "xxxxx";
+const String apiKey = "xxxxxx"; // Replace with your ThingSpeak API key
 const unsigned long postingInterval = 2000; // Interval between updates (in milliseconds)
 
 unsigned long lastPostingTime = 0;
